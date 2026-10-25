@@ -1,0 +1,109 @@
+{
+	"sections": [
+		{
+			"x": "Min",
+			"y": "Min",
+			"width": "Max",
+			"height": {
+				"Absolute": 60
+			},
+			"items": [
+				{
+					"Text": {
+						"text": "{battery}%  ",
+						"size": 25,
+						"x": "Max",
+						"y": "Min"
+					}
+				},
+				{
+					"Text": {
+						"text": "{time} ",
+						"size": 50,
+						"x": "Center",
+						"y": "Min"
+					}
+				}
+			]
+		},
+		{
+			"x": {
+				"Relative": 0.7
+			},
+			"y": "Center",
+			"width": {
+				"Relative": 0.3
+			},
+			"height": {
+				"Absolute": 165
+			},
+			"items": [
+				{
+					"Text": {
+						"text": " {temp}°",
+						"size": 70,
+						"x": "Center",
+						"y": "Min"
+					}
+				},
+				{
+					"Text": {
+						"text": " {min_temp}°",
+						"size": 45,
+						"x": "Min",
+						"y": {
+							"Absolute": 75
+						}
+					}
+				},
+				{
+					"Text": {
+						"text": " {max_temp}°",
+						"size": 45,
+						"x": "Max",
+						"y": {
+							"Absolute": 75
+						}
+					}
+				},
+				{
+					"Text": {
+						"text": "Low",
+						"size": 45,
+						"x": "Min",
+						"y": {
+							"Absolute": 120
+						}
+					}
+				},
+				{
+					"Text": {
+						"text": "High",
+						"size": 45,
+						"x": "Max",
+						"y": {
+							"Absolute": 120
+						}
+					}
+				}
+			]
+		}
+	],
+	"rectangles": [
+		{
+			"fill": true,
+			"x": {
+				"Relative": 0.69
+			},
+			"y": {
+				"Relative": 0.08
+			},
+			"width": {
+				"Absolute": 3
+			},
+			"height": {
+				"Relative": 0.84
+			}
+		}
+	]
+}
